@@ -5,7 +5,8 @@ int main() {
     if (n>m){
         printf("True");
     }
-    else
+    else{
     pritnf("False");
+    }
     return 0;
 }
