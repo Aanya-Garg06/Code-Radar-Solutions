@@ -9,6 +9,6 @@ int main() {
         printf("Loss");
     }
     else
-    printf("NO Profit No loss");
+    printf("No Profit No loss");
     return 0;
 }
