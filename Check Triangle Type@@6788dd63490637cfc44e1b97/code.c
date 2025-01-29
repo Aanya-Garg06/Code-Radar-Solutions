@@ -8,7 +8,7 @@ int main() {
     else if (n==m && m!=n){
         printf("Isosceles");
     }
-    else
+    else if (n!=m && m!=l)
     printf("Scalene");
     return 0;
 }
