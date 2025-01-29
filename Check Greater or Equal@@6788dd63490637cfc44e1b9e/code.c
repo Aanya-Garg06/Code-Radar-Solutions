@@ -2,6 +2,6 @@
 int main() {
     int n,m;
     scanf("%d %d",&n,&m);
-    printf("%c",(n>m)?"es":"No");
+    printf("%c",(n>m)?"Yes":"No");
     return 0;
 }
