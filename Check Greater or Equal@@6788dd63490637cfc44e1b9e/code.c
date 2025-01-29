@@ -2,6 +2,10 @@
 int main() {
     int n,m;
     scanf("%d %d",&n,&m);
-    printf("%c",(n>m)?"Yes":"No");
+    if (n>m){
+        print("Yes");
+    }
+    else
+    printf("No");
     return 0;
 }
