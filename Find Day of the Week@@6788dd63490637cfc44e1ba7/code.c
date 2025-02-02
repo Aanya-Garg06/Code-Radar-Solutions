@@ -4,7 +4,7 @@ int main() {
     switch(n)
     case 1:printf("Monday");
     break;
-    case 2:printf("Tueday");
+    case 2:printf("Tuesday");
     break;
     case 3:printf("Wednesday");
     break;
