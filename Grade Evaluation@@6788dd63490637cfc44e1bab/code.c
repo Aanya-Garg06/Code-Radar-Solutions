@@ -2,18 +2,22 @@
 int main() {
     char n;
     scanf("%c",n);
-    switch(n)
-    case "A": printf("Excellent");
-    break;
-    case "B": printf("Good");
-    break;
-    case "C": printf("Average");
-    break;
-    case "D": printf("Below Average");
-    break;
-    case "F": printf("Fail");
-    break;
-    default : printf("Invalid");
-    break;
+    if (n==A){
+        printf("Excellent");
+    }
+    else if(n==B){
+        printf("Good");
+    }
+    else if(n==C){
+        printf("Average");
+    }
+    else if(n==D){
+        printf("Below Average");
+    }
+    else if(n==F){
+        printf("Fail");
+    }
+    else
+    printf("Invalid");
     return 0;
 }
