@@ -3,21 +3,21 @@ int main() {
     char n;
     scanf("%c",n);
     if (n==A){
-        printf("Excellent");
+        printf("Excellent\n");
     }
     else if(n==B){
-        printf("Good");
+        printf("Good\n");
     }
     else if(n==C){
-        printf("Average");
+        printf("Average\n");
     }
     else if(n==D){
-        printf("Below Average");
+        printf("Below Average\n");
     }
     else if(n==F){
-        printf("Fail");
+        printf("Fail\n");
     }
     else
-    printf("Invalid");
+    printf("Invalid\n");
     return 0;
 }
