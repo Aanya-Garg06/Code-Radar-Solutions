@@ -5,6 +5,6 @@ int main() {
     char l[100];
     printf("Name: %s\n",n);
     printf("Age: %d\n",m);
-    printf("Hobby: %s",l);
+    printf("Hobby: %s\n",l);
     return 0;
 }
