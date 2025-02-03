@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    char n[];
+    char n[100];
     int m;
-    char l[];
+    char l[100];
     printf("Name: %s\nAge: %d\nHobby: %d",n,m,l);
     return 0;
 }
