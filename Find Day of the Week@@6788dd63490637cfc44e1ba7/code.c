@@ -2,7 +2,7 @@
 int main() {
     int n;
     scanf("%d",&n);
-    switch(n)
+    switch(n){
     case 1:printf("Monday\n");
     break;
     case 2:printf("Tuesday\n");
@@ -18,5 +18,6 @@ int main() {
     case 7:printf("Sunday\n");
     break;
     default:printf("Invalid\n");
+    }
     return 0;
 }
