@@ -4,7 +4,7 @@ int main() {
    scanf("d",&n);
    for (a=2;a<=n/2;a++){
     if (n%a==0){
-        flag=0
+        flag=0;
         break;
     }
    }
