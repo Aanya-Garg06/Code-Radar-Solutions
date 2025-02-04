@@ -5,7 +5,7 @@ int main() {
     if ((a+b)>c || (b+c)>c || (a+c)>b){
         printf("Valid");
     }
-    else if
+    else 
     printf("Invalid");
     return 0;
 }
