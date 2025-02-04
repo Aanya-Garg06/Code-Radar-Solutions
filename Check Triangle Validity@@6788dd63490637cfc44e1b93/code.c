@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    int n,m,l;
-    scanf("%d %d %d",&n,&m,&l);
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
     if ((a+b)>c || (b+c)>c || (a+c)>b){
         printf("Valid");
     }
