@@ -10,10 +10,16 @@ int main() {
         printf("%d",n-m);
     }
     else if(l=='/'){
-        printf("%d",n/m);
+        if(m!=0){
+            printf("%d",n/m);
+        }else{
+            printf("error");
+        }
     }
     else if(l=='*'){
         printf("%d",n*m);
     }
+    else
+    printf("Error: Invalid operator");
     return 0;
 }
