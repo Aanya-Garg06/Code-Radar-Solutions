@@ -5,7 +5,10 @@ int main() {
     if (n<0){
         printf("True");
     }
-    else
+    else if(n>0){
     printf("False");
+    }
+    else
+    printf("Zero");
     return 0;
 }
