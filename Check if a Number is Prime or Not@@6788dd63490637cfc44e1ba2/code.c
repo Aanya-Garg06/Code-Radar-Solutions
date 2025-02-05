@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 int main() {
    int n,a,flag=1;
    scanf("d",&n);
